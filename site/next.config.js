@@ -7,6 +7,7 @@ const isShopify = provider === '@vercel/commerce-shopify'
 const isSaleor = provider === '@vercel/commerce-saleor'
 const isSwell = provider === '@vercel/commerce-swell'
 const isVendure = provider === '@vercel/commerce-vendure'
+const isCommerce = provider === '@vercel/commerce-commercejs'
 
 module.exports = withCommerceConfig({
   commerce,
